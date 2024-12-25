@@ -1,0 +1,23 @@
+//INPUT
+1
+import java.util.*;
+public class condition_for{
+  public static void main(String[] args){
+    int a;
+    System.out.println("Enter a number:");
+    Scanner s = new Scanner(System.in);
+    a=s.nextInt();
+    for(int i=0; i<=10;i++){
+      if(i==5){
+        break;
+      }
+      System.out.println("The list is:"+a);
+    }
+  }
+}
+Enter a number:
+The list is:1
+The list is:1
+The list is:1
+The list is:1
+The list is:1
